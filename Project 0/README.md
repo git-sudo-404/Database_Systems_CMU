@@ -64,6 +64,15 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 - That's why hyperloglog is used.
 - The results can be calculated in a distributed manner and can be merged together.
 
+#### Why is it called hyperLOGLOG ?
+
+- The maximum UserID that could be represented by a number is 2 power 64 (2^64).
+- This maximum number could at max have a run of 64.
+- this can be represented by 7 bits.
+- (i.e) 2^64 users , a maximum of 64 runs possible , can be stored in 7 bits.
+- log(2^64) = 64 ==> log (64) ==> 7.
+- log(log(2^64)) == 7. _Therefore hyperLOGLOG_
+
 ### Resources
 
 - [YouTube Video by Breaking Tap](https://www.youtube.com/watch?v=lJYufx0bfpw)
