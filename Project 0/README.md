@@ -28,6 +28,10 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 
 - It takes the UserID's and hashes it , and gives a binary number.
 - (i.e) UserId ==> f(UserID) ==> 1...101000 (This is where the randomness comes in).
+
+* For the hashing part use any standard hashing algorithm that can be imported from libraries mostly in any language like murmurhash and get the output
+  in 64 bits / 128 bits.
+
 - We call the number of continuous 0's at the end a run.
 - 10101010000 is a run of 4. It has 4 continuous 0's at the end / LSB.
 - Based on the run of the number that was produced after hashing we get the result.
@@ -66,7 +70,7 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 
 #### Why is it called hyperLOGLOG ?
 
-- The maximum UserID that could be represented by a number is 2 power 64 (2^64).
+- The maximum UserID that could be represented by a number(long long - 64 , can be 128 as well u_int128) is 2 power 64 (2^64).
 - This maximum number could at max have a run of 64.
 - this can be represented by 7 bits.
 - (i.e) 2^64 users , a maximum of 64 runs possible , can be stored in 7 bits.
