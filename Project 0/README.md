@@ -25,7 +25,7 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 ### How does it work ?
 
 - It takes the UserID's and hashes it , and gives a binary number.
-- (i.e) UserId ==> f(UserID) ==> 1...101000.
+- (i.e) UserId ==> f(UserID) ==> 1...101000 (This is where the randomness comes in).
 - We call the number of continuous 0's at the end a run.
 - 10101010000 is a run of 4. It has 4 continuous 0's at the end / LSB.
 - Based on the run of the number that was produced after hashing we get the result.
