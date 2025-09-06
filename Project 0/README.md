@@ -77,6 +77,16 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 - log(2^64) = 64 ==> log (64) ==> 7.
 - log(log(2^64)) == 7. _Therefore hyperLOGLOG_
 
+### Error Rates and Improvisations
+
+#### SuperLogLog
+
+- We consider only the top 70% to not include the outliers , this reduces the error rate to 1.06/sqrt(m) , m - number of buckets in hash.
+
+#### HyperLogLog
+
+- Take Harmonic Mean.
+
 ### Resources
 
 - [YouTube Video by Breaking Tap](https://www.youtube.com/watch?v=lJYufx0bfpw)
