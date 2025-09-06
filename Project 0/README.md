@@ -2,7 +2,7 @@
 
 - TLDR : Used to count the number of distinct elements in a large dataset.
 
-* Assumptions : The UserID's are uniformly distributed and random.
+* Assumptions : The elements(here, UserID's) are uniformly distributed and random.
 
 ### Why HyperLogLog ?
 
