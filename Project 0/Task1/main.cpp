@@ -16,7 +16,7 @@ int main() {
     hll.addElement("banana"); // This is also a duplicate.
 
     // Let's add many more unique items to see it work.
-    for (int i = 0; i < 1000; ++i) {
+    for (int i = 0; i < 1000000; ++i) {
         hll.addElement("user_" + std::to_string(i));
     }
 
@@ -25,7 +25,7 @@ int main() {
     double cardinality = hll.getCardinality();
 
     std::cout << "---------------------------------" << std::endl;
-    std::cout << "Actual unique elements: 1004" << std::endl;
+    std::cout << "Actual unique elements: 1000004" << std::endl;
     std::cout << "HLL estimated cardinality: " << cardinality << std::endl;
     std::cout << "---------------------------------" << std::endl;
 

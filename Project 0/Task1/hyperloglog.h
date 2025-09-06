@@ -22,7 +22,7 @@ public :
   //       HyperLogLog hll = 10 --- ✅  |  HyperLogLog hll = 10 --- ❌
   //       HyperLogLog hll(10)  --- ✅  |  HyperLogLog hll(10)  --- ✅ 
   
-  void addElement(const string &s); // add element to HyperLogLog
+  void addElement(const std::string &s); // add element to HyperLogLog
   // const meaning the function is not allowed to change the string
 
   double getCardinality(); // returns the estimated number of unique elements , floored to the nearest integer 
@@ -35,11 +35,11 @@ private :
   uint32_t m_ ; // the number of registers , m = 2^b .
   // number of buckets_
 
-  vector<uint8_t>registers_; // these are the buckets 
+  std::vector<uint8_t>registers_; // these are the buckets 
 
   double Compute_Cardinality(); // calculates and returns the final estimate in double  
 
-}
+};
 
 
 

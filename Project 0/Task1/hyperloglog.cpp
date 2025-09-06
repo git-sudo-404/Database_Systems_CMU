@@ -22,7 +22,7 @@ HyperLogLog::HyperLogLog(uint8_t b){
 
 // Add Element 
 
-HyperLogLog::addElement(const string &s){
+void HyperLogLog::addElement(const std::string &s){
 
   // Step - 1 : Calculate the 64 - bit hash of the input string 
   
@@ -57,7 +57,7 @@ HyperLogLog::addElement(const string &s){
 
   }
 
-  registers_[register_ind] = max(registers_[register_ind] , p) ;    // update with the maximum runs in the bucket
+  registers_[register_ind] = std::max(registers_[register_ind] , p) ;    // update with the maximum runs in the bucket
  
   // 01010000000011011...0
   // 0101 0000  000011011....0 
@@ -69,12 +69,12 @@ HyperLogLog::addElement(const string &s){
 
 double HyperLogLog::getCardinality(){
 
-  return std::floor(ComputeCardinality());
+  return std::floor(Compute_Cardinality());
 
 }
 
 
-double HyperLogLog::ComputeCardinality(){
+double HyperLogLog::Compute_Cardinality(){
 
 
   // Step - 1 : Calculate the sum part of the formula: Σ(2^(-R[j])).
