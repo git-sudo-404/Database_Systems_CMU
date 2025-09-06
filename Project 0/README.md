@@ -37,7 +37,7 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
   an hour or so. But if i get 20 then it means i have been flipping them for weeks.
 - Now compare that coin flipping to the trailing 0's.
 
-#### But what if the random results produced by the hashing function produces 20 for the first UserID , then won't it result in inaccuracy ?
+#### But what if the random results produced by the hashing function produces a run of 20 for the first UserID , then won't it result in inaccuracy ?
 
 - That's why we use scorecards, They are nothing but doing the above process let's say 4 times (for 4 scorecards) and storing the results in scorecards
 - To which scorecard the result to go to is determined by the MSB's.
