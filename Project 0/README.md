@@ -33,6 +33,8 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 - Based on the run of the number that was produced after hashing we get the result.
 - A longer run means , the algorithm has been running for a longer time.
 
+* We take the maximum run of all (say x), then the final result is 2^x.
+
 #### But how?
 
 - Consider the analogy of flipping coins to get x number of heads in a row. If i get 5 heads in a row it means i have been flipping coins for let's say
