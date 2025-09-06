@@ -89,8 +89,12 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 
 ### Resources
 
-- [YouTube Video by Breaking Tap](https://www.youtube.com/watch?v=lJYufx0bfpw)
+- [Research Paper](https://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf)
 
-* [YouTube Video by Gaurav Sen](https://www.youtube.com/watch?v=eV1haPUt0NU)
+* [YouTube Video by Breaking Tap](https://www.youtube.com/watch?v=lJYufx0bfpw)
 
-- [Youtube Video by Victo Sancehs](https://www.youtube.com/watch?v=2PlrMCiUN_s)
+- [YouTube Video by Gaurav Sen](https://www.youtube.com/watch?v=eV1haPUt0NU)
+
+* [Youtube Video by Victo Sancehs](https://www.youtube.com/watch?v=2PlrMCiUN_s)
+
++[Meta's blog](https://engineering.fb.com/2018/12/13/data-infrastructure/hyperloglog/)
