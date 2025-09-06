@@ -97,4 +97,4 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 
 * [Youtube Video by Victo Sancehs](https://www.youtube.com/watch?v=2PlrMCiUN_s)
 
-+[Meta's blog](https://engineering.fb.com/2018/12/13/data-infrastructure/hyperloglog/)
+* [Meta's blog](https://engineering.fb.com/2018/12/13/data-infrastructure/hyperloglog/)
