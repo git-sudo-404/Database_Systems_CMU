@@ -20,7 +20,7 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 - Hashing the UserID's is a good way to optimize the Time Complexity , but let's say there are 100 Million Users , then the Space Complexity just
   for counting this is Huge!!
 
-###### *italic*This is where HyperLogLog comes in
+###### _This is where HyperLogLog comes in_
 
 ### How does it work ?
 
