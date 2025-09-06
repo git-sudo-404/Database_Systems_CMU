@@ -1,3 +1,0 @@
-/Users/chiranjeevprasannaavv/Desktop/CP/new_projects/DB_CMU/Database_Systems_CMU/build/CMakeFiles/t1.dir
-/Users/chiranjeevprasannaavv/Desktop/CP/new_projects/DB_CMU/Database_Systems_CMU/build/CMakeFiles/edit_cache.dir
-/Users/chiranjeevprasannaavv/Desktop/CP/new_projects/DB_CMU/Database_Systems_CMU/build/CMakeFiles/rebuild_cache.dir

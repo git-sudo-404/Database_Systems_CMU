@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/t1.dir/murmurhash/MurmurHash3.cpp.o CMakeFiles/t1.dir/Task1/hyperloglog.cpp.o CMakeFiles/t1.dir/Task1/main.cpp.o -o t1
