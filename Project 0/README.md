@@ -1,8 +1,10 @@
 ## HyperLogLog ( A prababilitic Data Structure )
 
-- TLDR : Used to count the number of distinct elements in a large dataset.
+- [CMU Project 0 Description](https://15445.courses.cs.cmu.edu/fall2024/project0/)
 
-* Assumptions : The elements(here, UserID's) are uniformly distributed and random.
+* TLDR : Used to count the number of distinct elements in a large dataset.
+
+- Assumptions : The elements(here, UserID's) are uniformly distributed and random.
 
 ### Why HyperLogLog ?
 
