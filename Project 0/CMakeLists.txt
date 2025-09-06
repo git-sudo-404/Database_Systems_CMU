@@ -13,11 +13,22 @@ add_executable(t1
                 Task1/main.cpp
 )
 
+add_executable(
+                t2
+                murmurhash/MurmurHash3.cpp 
+                Task2/hyperloglog.cpp 
+                Task2/main.cpp 
+)
 
 #Tell the compiler where to look for header files 
 
 target_include_directories(t1 PRIVATE 
                             ${CMAKE_CURRENT_SOURCE_DIR}/Task1
+                            ${CMAKE_CURRENT_SOURCE_DIR}/murmurhash 
+)
+
+target_include_directories(t2 PRIVATE
+                            ${CMAKE_CURRENT_SOURCE_DIR}/Task2
                             ${CMAKE_CURRENT_SOURCE_DIR}/murmurhash 
 )
 
