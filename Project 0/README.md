@@ -44,6 +44,15 @@ logged in (or) connected to my servers. I know their UserID's are unique. But ho
 - Then we take the Harmonic Mean of them all.
 - We can control the precision by varying the number of scorecards used.
 
+#### Distributed Systems
+
+- Another simple way is to constantly maintain a seperate table that keeps the UserID whenever the users is active ( adds it to the table when the
+  connection is made) and remove it when the connection is closed.
+- But do you see the problem here? What if my server is not only one node (i.e) there are multiple servers a user can connect to , one from laptop
+  and another from phone could get connected to different server.
+- That's why hyperloglog is used.
+- The results can be calculated in a distributed manner and can be merged together.
+
 ### Resources
 
 - [YouTube Video by Breaking Tap](https://www.youtube.com/watch?v=lJYufx0bfpw)
