@@ -16,7 +16,7 @@ add_executable(t1
 add_executable(
                 t2
                 murmurhash/MurmurHash3.cpp 
-                Task2/hyperloglog.cpp 
+                Task2/hyperloglog_presto.cpp 
                 Task2/main.cpp 
 )
 
